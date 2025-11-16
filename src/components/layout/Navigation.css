@@ -1,0 +1,33 @@
+/* Navigation — responsive nav menu */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}

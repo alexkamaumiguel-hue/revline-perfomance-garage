@@ -1,0 +1,43 @@
+/* Header — Sticky navigation bar */
+.header {
+  /* make header sit on top of the hero and let the hero show through */
+  background: transparent; /* let hero image show underneath */
+  padding: 1rem 0;
+  position: absolute; /* overlay the hero */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  border-bottom: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo h2 {
+  margin: 0;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav a {
+  text-decoration: none;
+  color: var(--text); /* ensure links are readable over hero */
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header .nav a:hover {
+  color: var(--primary);
+}

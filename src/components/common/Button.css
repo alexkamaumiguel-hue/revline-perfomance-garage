@@ -1,0 +1,31 @@
+/* Button styles — primary and secondary variants */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: #e55e00;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 107, 0, 0.3);
+}
+
+.btn.btn-secondary {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: var(--text);
+}
+
+.btn.btn-secondary:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}

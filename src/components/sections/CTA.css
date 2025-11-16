@@ -1,0 +1,24 @@
+/* CTA styles */
+.cta {
+  padding: 3.5rem 0;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1fr 460px;
+  gap: 2rem;
+  align-items: center;
+}
+
+.cta-text .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.cta-media img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .cta-grid { grid-template-columns: 1fr; }
+}
