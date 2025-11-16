@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # my-sq5-project
 my garage as my final project
 =======
@@ -19,3 +20,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 >>>>>>> 5b68989 (chore: initial commit - update products/services, header/hero, footer, image fixes)
+=======
+# revline-perfomance-garage
+welcome to revline
+>>>>>>> 5a26f2ff214726ac47238a1829678b3a770123f7
